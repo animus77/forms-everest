@@ -1,0 +1,13 @@
+main .formulario{
+    background-color: red;
+    margin: 0 auto;
+    max-width: 250px;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario form label{
+    width: auto;
+    background-color: aqua;
+}
