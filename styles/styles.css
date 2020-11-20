@@ -1,13 +1,41 @@
-main .formulario{
-    background-color: red;
-    margin: 0 auto;
-    max-width: 250px;
-    min-height: 300px;
-    display: flex;
-    flex-wrap: wrap;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'oswald';
 }
 
-.formulario form label{
-    width: auto;
-    background-color: aqua;
+main{
+    background-color: #e5e5e5;
+}
+header{
+    display: flex;
+    background-color: #7fbbec;
+    height: 100px;
+    width: 100%;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+header img{
+    height: 75px;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 300px;
+    min-height: 400px;
+
+}
+
+.formulario input{
+    width: 300px;
+    height: 30px;
+}
+
+.formulario .button{
+    margin-top: 10px;
+    width: 120px;
 }
